@@ -63,3 +63,22 @@ interface Creature {
   - 이 역시 하나의 타입으로 취급됨
   - 가지고 있는 필드를 자동완성 도와줌
     - 타입까지 알려준다.
+
+## 0.7 Classes on Typescript part One
+
+- Class 이용하여 TS-JS 호환가능함.
+  - 필드에 private / public 은 ts에만 존재
+    - private 오류는 컴파일러에서 검사
+
+## 0.8 Blockchain Creating a Block
+
+- Block class 생성
+- Array 역시 `Type[]` 꼴로 원하는 요소만 넣을 수 있음
+
+## 0.9 ~ 0.10 Creating a Block
+
+- `data,previousBlock,newIndex,nextTimeStamp,nextHash` 을 이용하여 새블록을 생성하는 체인
+
+## 0.11 ~ 0.12 Validating Block Structure
+
+- typeof 연산을 이용한 검증
